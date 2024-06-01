@@ -290,9 +290,6 @@ main{
     width: 1500px;
     background-color: blue;
 }
-body{
-    overflow: hidden;
-}
 #bgVideo{
     height: 780px;
     width: 1700px;
