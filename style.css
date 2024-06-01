@@ -1,0 +1,649 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#welcome{
+    background-color: black;
+    height: 1500px;
+    position: relative;
+    bottom: 4800px;
+    display: flex;
+    align-items: center;
+}
+#giftbox{
+    height: 600px;
+    width: 1800px;
+    position: relative;
+    top:100px;
+    right:100px
+
+}
+#playPauseButton{
+    height: 30px;
+    width:200px;
+    position: relative;
+    left:700px;
+    top:450px;
+    background-color: white;
+}
+#playPauseButton:hover{
+    background-color: yellow;
+}
+#playPauseButton:active{
+    background-color: black;
+    color: white;
+}
+
+.animate20{
+    animation: move20 1s 1  0s forwards;
+}
+@keyframes move20 {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-2000px);
+    }
+}
+#start{
+    background-color: black;
+}
+section{
+    background-color: black;
+    height: 820px;
+    display: flex;
+    flex-direction: row;
+}
+.animate{
+    animation: move14 0.1s 1 6.5s forwards;
+}
+.animate1{
+    animation: move 2s 2 7s alternate;
+}
+.animate2{
+    animation: move1 2s 2 11s alternate;
+}
+.animate3{
+    animation: move2 4s 2 15s alternate;
+    animation: move3 4s 2 15s alternate;
+    animation: move4 4s 2 15s alternate;
+}
+.animate4{
+    animation: move5 5s 2 22s alternate;
+}
+.animate5{
+    animation: move6 5s 2 22s alternate;
+}
+.animate6{
+    animation: move7 5s 2 22s alternate;
+}
+.animate7{
+    animation: move9 3s 1 35s forwards;
+}
+.animate8{
+    animation: move10 3s 1 35s forwards;
+}
+.animate9{
+    animation: move11 3s 1 35s forwards;
+}
+.animate10{
+    animation: move8 1s 1 38s forwards;
+    animation: move8 1s 1 38s forwards;
+    animation: move8 1s 1 38s forwards;
+    animation: move8 1s 1 38s forwards;
+    animation: move8 1s 1 38s forwards;
+    animation: move8 1s 1 38s forwards;
+    animation: move8 1s 1 38s forwards;
+    animation: move8 1s 1 38s forwards;
+    animation: move8 1s 1 38s forwards;
+    animation: move8 1s 1 38s forwards;
+}
+.animate11{
+    animation: move12 2s 1 40s forwards;
+}
+.animate12{
+    animation: move15 0s 1 0s forwards;
+}
+.animate13{
+    animation: move13 2s 1 50s forwards;
+}
+.animate16{
+    animation: move16 1s 1 38s forwards;
+}
+.animate19{
+    animation: move19 0s 1 42s forwards;
+}
+#photo1{
+    height: 800px;
+    width: 600px;
+    background-color: white;
+    margin: 10px;
+    /* animation: move9 3s 1 58s forwards; */
+    background-image: url(image12.jpg);
+    background-size: contain;
+}
+.animate21{
+    animation: blur 29s forwards;
+}
+@keyframes blur {
+    0% {
+        filter: blur(300px); /* Start with a blur of 10px */
+    }
+    100% {
+        filter: blur(0); /* End with no blur */
+    }
+}
+#photo2{
+    height: 800px;
+    width: 600px;
+    background-color: white;
+    margin: 10px;
+    background-image: url(image13.jpg);
+    background-size: contain;
+    background-position-x: 25px;
+    /* animation: move10 3s 1 58s forwards; */
+}
+#photo3{
+    height: 800px;
+    width: 600px;
+    background-color: white;
+    margin: 10px;
+    background-image: url(image2.jpg);
+    background-size: cover;
+    background-position-y:-180px;
+    /* animation: move11 3s 1 58s forwards; */
+}
+main{
+    background-color: aquamarine;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+@keyframes move9 {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-700px);
+    }
+}
+@keyframes move10 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-900px);
+    }
+}
+@keyframes move11 {
+    from{
+        transform: translatex(0px);
+    }
+    to{
+        transform: translatex(900px);
+    }
+}
+#image1{
+    height: 0px;
+    width: 0px;
+    margin: 5px;
+    position: relative;
+    bottom: 500px;
+    left:130px;
+    background-color: green;
+    background-image: url(image3.jpg);
+    background-size: contain;
+    /* animation: move 2s 2 29s alternate; */
+}
+#image2{
+    height: 0px;
+    width: 0px;
+    margin: 5px;
+    position: relative;
+    bottom: 500px;
+    left:1130px;
+    background-color: red;
+    background-image: url(image6.jpg);
+    background-size: contain;
+    /* animation: move1 2s 2 34s alternate; */
+
+}
+#image3{
+    height: 0px;
+    width: 0px;
+    position: relative;
+    bottom: 800px;
+    left:630px;
+    background-color: brown;
+    margin: 5px;
+    border-radius: 50%;
+    background-image: url(image9.jpg);
+    background-size: cover;
+    /* animation: move2 4s 2 37s alternate; */
+}
+#image4{
+    height: 0px;
+    width: 0px;
+    position: relative;
+    bottom: 400px;
+    left:900px;
+    background-color:aqua;
+    margin: 5px;
+    border-radius: 50%;
+    background-image: url(image1.jpg);
+    background-size: cover;
+    /* animation: move3 4s 2 37s alternate; */
+}
+#image5{
+    height: 0px;
+    width: 0px;
+    position: relative;
+    bottom: 400px;
+    right: 400PX;
+    background-color:chocolate;
+    margin: 5px;
+    border-radius: 50%;
+    background-image: url(image7.jpg);
+    background-size: cover;
+    /* animation: move4 4s 2 37s alternate; */
+}
+#image6{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    bottom: 450PX;
+    right: 1050px;
+    background-color: purple;
+    margin: 5px;
+    background-image: url(image8.jpg);
+    background-size: cover;
+    background-position-y:-150px;
+    /* animation: move5 4s 2 46s alternate; */
+}
+#image7{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    bottom: 1200PX;
+    left: 200PX;
+    background-color: black;
+    margin: 5px;
+    background-image: url(image10.jpg);
+    background-size: contain;
+    /* animation: move6 4s 2 46s alternate; */
+}
+#image8{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    bottom: 450PX;
+    left: 1200PX;
+    background-color: olivedrab;
+    margin: 5px;
+    background-image: url(image4.jpg);
+    background-size: contain;
+    /* animation: move7 4s 2 46s alternate; */
+}
+.background-video{
+    height: 800px;
+    width: 1500px;
+    background-color: blue;
+}
+body{
+    overflow: hidden;
+}
+#bgVideo{
+    height: 780px;
+    width: 1700px;
+    position: relative;
+    bottom: 1420px;
+    right: 80px;
+    /* animation: move14 0.1s 1 27s forwards; */
+    
+}
+@keyframes move14 {
+    from {
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-2000px);
+
+    }
+}
+@keyframes move {
+    from {
+        transform: translate(0px);
+    }
+    to{
+        transform: translate(500px);
+        height: 300px;
+        width: 300px;
+    }
+}
+@keyframes move1{
+    from {
+        transform: translate(0px);
+    }
+    to{
+        transform: translate(-500px);
+        height: 300px;
+        width: 300px;
+    }
+}
+@keyframes move2{
+    from {
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(200px);
+        height: 300px;
+        width: 300px;
+    }
+}
+@keyframes move3{
+    from {
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-200px);
+        height: 300px;
+        width: 300px;
+    }
+}
+@keyframes move4{
+    from {
+        transform: translate(0px);
+    }
+    to{
+        transform: translate(0px);
+        height: 300px;
+        width: 300px;
+    }
+}
+@keyframes move5{
+    from {
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateX(1450px);
+    }
+}
+@keyframes move6{
+    from {
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(500px);
+    }
+}
+@keyframes move7{
+    from {
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-1120px);
+    }
+}
+#final{
+    background-color: black;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 2220px;
+    right: 1550px;
+}
+.animate22{
+    animation: move22 0s 37s  1 forwards;
+}
+@keyframes move22 {
+    from{
+        transform: translateX(0px);
+
+    }
+    to{
+        transform: translateX(1550px);
+    }
+    
+}
+#image9{
+    height: 0px;
+    width: 0px;
+    background-color:green;
+    margin: 5px;
+    position: relative;
+    top:200px;
+    background-image: url(image1.jpg);
+    background-size: cover;
+    /* animation: move8 1s 1 60s forwards; */
+}
+#image10{
+    height: 0px;
+    width: 0px;
+    background-color: red;
+    margin: 5px;
+    background-image: url(image2.jpg);
+    background-size: cover;
+    background-position-y: -100px;
+    /* animation: move8 1s 1 60s forwards; */
+}
+#image11{
+    height: 0px;
+    width: 0px;
+    background-color: red;
+    margin: 5px;
+    background-image: url(image6.jpg);
+    background-size: cover;
+    /* animation: move8 1s 1 60s forwards; */
+}
+#image12{
+    height: 0px;
+    width: 0px;
+    background-color: red;
+    margin: 5px;
+    background-image: url(image3.jpg);
+    background-size: cover;
+    /* animation: move8 1s 1 60s forwards; */
+}
+#image13{
+    height: 0px;
+    width: 0px;
+    background-color: blue;
+    margin: 5px;
+    position: relative;
+    top:200px;
+    background-image: url(image7.jpg);
+    background-size: cover;
+    /* animation: move8 1s 1 60s forwards; */
+}
+#image14{
+    height: 0px;
+    width: 0px;
+    background-color:green;
+    margin: 5px;
+    position: relative;
+    top:420px;
+    right: 210px;
+    background-image: url(image12.jpg);
+    background-size: cover;
+    background-position-y: -100px;
+    /* animation: move8 1s 1 60s forwards; */
+}
+#image15{
+    height: 0px;
+    width: 0px;
+    /* background-color: yellow; */
+    margin: 5px; 
+    position: relative;
+    top:610px;
+    right: 630px;
+    /* animation: move8 1s 1 60s forwards; */
+}
+#name{
+    height:100px;
+    width:200px;
+    position: relative;
+    bottom:2000px;
+    margin: 5px;
+    border: none;
+}
+#name:hover{
+    background-color: #ba352b;
+}
+#image16{
+    height: 0px;
+    width: 0px;
+    background-color: gold;
+    margin: 5px;
+    position: relative;
+    top:10px;
+    background-image: url(image9.jpg);
+    background-size: cover;
+    /* animation: move8 1s 1 60s forwards; */
+}
+#image17{
+    height: 0px;
+    width: 0px;
+    /* background-color: pink; */
+    margin: 5px;
+    position: relative;
+    top:210px;
+    right: 20px;
+    /* animation: move8 1s 1 60s forwards; */
+}
+#happy{
+    height: 100px;
+    width:200px;
+    position: relative;
+    bottom:2000px;
+    margin: 5px;
+    border: none;
+}
+#happy:hover{
+    background-color: #fca311;
+}
+#image18{
+    height:100px;
+    width: 200px;
+    /* background-color: black; */
+    margin: 5px;
+    position: relative;
+    top:210px;
+    right: 10px;
+    /* animation: move8 1s 1 60s forwards; */
+}
+#birthday{
+    height: 100px;
+    width:200px;
+    position: relative;
+    bottom:2000px;
+    margin: 5px;
+    border: none;
+}
+#birthday:hover{
+    background-color: #15616d;
+}
+@keyframes move16 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-850px);
+    }
+}
+@keyframes move8 {
+    from{
+        height: 0px;
+        width:0px;
+    }
+    to{
+        height: 200px;
+        width: 200px;
+    }
+    
+}
+#last{
+    height: 0px;
+    width: 0px;
+    background-color: blue;
+    position: relative;
+    left:1100px;
+    bottom: 2900px;
+    background-image: url(image13.jpg);
+    background-size: cover;
+    /* animation: move12 2s 1 62s forwards; */
+}
+@keyframes move12 {
+    from{
+        height: 0px;
+        width:0px;
+    }
+    to{
+        height: 400px;
+        width: 300px;
+    }
+    
+}
+#button{
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left:1750px;
+    bottom: 2890px;
+    /* animation: move13 2s 1 68s forwards; */
+    text-decoration: none;
+}
+#button:hover{
+    background-color:#fca311;
+    color: white;
+}
+#button:active{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+@keyframes move13 {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-600px);
+    }
+
+}
+@keyframes move15 {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-1000px);
+    }
+
+}
+#music{
+    position: relative;
+    right:1600px;
+}
+#wish{
+    height: 400px;
+    width:600px;
+    position: relative;
+    bottom:3980px;
+    right: 600px;
+    /* left: 240px; */
+}
+@keyframes move19 {
+    from{
+        transform: translateX(0px);
+
+    }
+    to{
+        transform: translateX(840px);
+    }
+    
+}
